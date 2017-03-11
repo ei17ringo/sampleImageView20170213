@@ -14,6 +14,8 @@
 		196D00311E7270CB00051C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196D002F1E7270CB00051C48 /* LaunchScreen.storyboard */; };
 		196D003C1E7270CB00051C48 /* sampleImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D003B1E7270CB00051C48 /* sampleImageViewTests.swift */; };
 		196D00471E7270CB00051C48 /* sampleImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D00461E7270CB00051C48 /* sampleImageViewUITests.swift */; };
+		196D00551E72717100051C48 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 196D00541E72717100051C48 /* sample.png */; };
+		196D00571E72729C00051C48 /* sample2.png in Resources */ = {isa = PBXBuildFile; fileRef = 196D00561E72729C00051C48 /* sample2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		196D00421E7270CB00051C48 /* sampleImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		196D00461E7270CB00051C48 /* sampleImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleImageViewUITests.swift; sourceTree = "<group>"; };
 		196D00481E7270CB00051C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196D00541E72717100051C48 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		196D00561E72729C00051C48 /* sample2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		196D00251E7270CB00051C48 /* sampleImageView */ = {
 			isa = PBXGroup;
 			children = (
+				196D00561E72729C00051C48 /* sample2.png */,
+				196D00541E72717100051C48 /* sample.png */,
 				196D00261E7270CB00051C48 /* AppDelegate.swift */,
 				196D00281E7270CB00051C48 /* ViewController.swift */,
 				196D002A1E7270CB00051C48 /* Main.storyboard */,
@@ -234,7 +240,9 @@
 			files = (
 				196D00311E7270CB00051C48 /* LaunchScreen.storyboard in Resources */,
 				196D002E1E7270CB00051C48 /* Assets.xcassets in Resources */,
+				196D00571E72729C00051C48 /* sample2.png in Resources */,
 				196D002C1E7270CB00051C48 /* Main.storyboard in Resources */,
+				196D00551E72717100051C48 /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
